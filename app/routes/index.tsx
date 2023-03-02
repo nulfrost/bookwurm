@@ -9,6 +9,7 @@ export default function Index() {
           Enter your email to get notified about Bookwurm
         </label>
         <input
+          disabled
           autoFocus
           type="email"
           name="waitlist"
