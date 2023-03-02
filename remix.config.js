@@ -5,6 +5,7 @@ module.exports = {
     unstable_tailwind: true,
     v2_meta: true,
     v2_errorBoundary: true,
+    unstable_cssSideEffectImports: true,
   },
   // When running locally in development mode, we use the built-in remix
   // server. This does not understand the vercel lambda module format,
