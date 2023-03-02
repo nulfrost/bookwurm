@@ -18,6 +18,7 @@ export default function Index() {
           placeholder="someone@email.com"
         />
         <button
+          disabled
           type="submit"
           className="w-full px-4 py-2 text-sm font-bold text-white duration-150 bg-pink-600 rounded-md outline-none hover:bg-pink-700 focus:ring-pink-400 focus-visible:border-pink-300 focus:ring focus:ring-opacity-50"
         >
