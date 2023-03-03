@@ -80,7 +80,7 @@ export default function Index() {
           required
           ref={inputRef}
           aria-required
-          type="text"
+          type="email"
           name="waitlistMember"
           aria-describedby="error-message"
           id="waitlistMember"
