@@ -11,9 +11,7 @@ export async function addUserToWaitlist(email: string) {
       email_address: email,
       status: "subscribed",
     });
-  } catch {
-    throw new Error(
-      "There was an error subscribing to the newsletter, try again later!"
-    );
+  } catch (error) {
+    throw error;
   }
 }
