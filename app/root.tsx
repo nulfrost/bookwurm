@@ -33,7 +33,7 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full font-sans bg-gray-100">
-        <main className="flex items-center justify-center h-full ">
+        <main className="h-full ">
           <Outlet />
         </main>
         <ScrollRestoration />

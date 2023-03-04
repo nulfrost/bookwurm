@@ -4,6 +4,8 @@ const envVariables = z.object({
   MAILCHIMP_API_KEY: z.string(),
   MAILCHIMP_SERVER_PREFIX: z.string(),
   MAILCHIMP_AUDIENCE_ID: z.string(),
+  SUPABASE_URL: z.string(),
+  SUPABASE_ANON_KEY: z.string(),
 });
 
 envVariables.parse(process.env);

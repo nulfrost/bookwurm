@@ -61,7 +61,7 @@ export default function Index() {
   }, [state]);
 
   return (
-    <div className="text-center">
+    <div className="flex flex-col items-center justify-center h-full text-center">
       <h1 className="mb-4 text-3xl font-bold text-center text-pink-600 underline decoration-wavy underline-offset-8">
         Bookwurm
       </h1>
